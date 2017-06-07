@@ -137,7 +137,7 @@ This process installs Intu on the remote device whose user name and IP address y
 1. Set up [CMake](http://doc.aldebaran.com/2-1/dev/cpp/install_guide.html#required-buidsys).
 2. Set up [qiBuild](http://doc.aldebaran.com/2-1/dev/cpp/install_guide.html#qibuild-install).
 3. Download the [C++ NAOqi SDK (Cross Toolchain x.x.x Mac 64)](https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb)
-4. Create a toolchain using qibuild:
+4. Create a toolchain using the feed from the C++ SDK:
   * `qitoolchain create nao /path/to/SDKfolder/naoqi-sdk/toolchain.xml`
 5. Create a build configuration using this toolchain:
   * `qibuild add-config nao -t nao --default`
